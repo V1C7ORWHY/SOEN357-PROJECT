@@ -1,4 +1,4 @@
-SOEN357 Final Project Fsll 2024
+SOEN357 Final Project Fall 2024
 ==
 
 Yoel Serfaty 40087369
