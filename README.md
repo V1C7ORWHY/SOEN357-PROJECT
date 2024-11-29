@@ -23,9 +23,15 @@ How to run the code?
 User personas
 ==
 We created 2 user personas that would represent potential users. This will allow us to better understand our users’ expectations, concerns and motivations.
-The first persona is Alexandre Martinez. He is a Game Streamer, who stay at home and 
 
-. Wells. He represents users who wants to have family trip in a different country but nobody in his family can speak local language.
+The first persona is Dr. Thompson Green. He is a chemical scientist. He spends his most time in the lab.
+
+<img width="546" alt="Screenshot 2024-11-29 at 14 51 32" src="https://github.com/user-attachments/assets/d3bdeadf-b4ee-409d-a38c-53faef2690e8">
+
+The second persona is Alexandre Martinez. He is a Game Streamer, who stay at home and work at home in the most of time.
+
+<img width="545" alt="Screenshot 2024-11-29 at 14 51 40" src="https://github.com/user-attachments/assets/2126c8ac-f734-4783-bf45-956f705ab585">
+
 
 
 User Journey
