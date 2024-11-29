@@ -46,6 +46,6 @@ Now We have an idea of how the website will run. Mapping the basic flow of the w
 
 Storyboard
 ==
-We developed a storyboard for our persona, Brand D Wells . It illustrates the user experience with the app. This approach effectively showcases how the product fits into a broader narrative, providing insight into its real-world application. It's a valuable and cost-effective method for capturing, communicating, and exploring the app's context and usability.
+We developed a storyboard. It illustrates the user experience with the website. This approach effectively showcases how the product fits into a broader narrative, providing insight into its real-world application. It's a valuable and cost-effective method for capturing, communicating, and exploring the app's context and usability.
 
 
