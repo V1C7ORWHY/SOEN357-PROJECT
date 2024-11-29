@@ -19,3 +19,27 @@ Website
 
 How to run the code?
 ==
+
+User personas
+==
+We created 2 user personas that would represent potential users. This will allow us to better understand our users’ expectations, concerns and motivations.
+The first persona is Alexandre Martinez. He is a Game Streamer, who stay at home and 
+
+. Wells. He represents users who wants to have family trip in a different country but nobody in his family can speak local language.
+
+
+User Journey
+==
+
+Next, we write a typical daily using routine for my persona. This process helped me decide how the app’s user experience might be designed to fit in with a navigation routine.
+<img width="1508" alt="Screenshot 2024-11-29 at 14 48 56" src="https://github.com/user-attachments/assets/261693ec-305c-4fb5-ade7-1d4d65d0ec15">
+
+User Flow Chart 
+==
+Now We have an idea of how the website will run. Mapping the basic flow of the website let me to figure each step on the path the users will take throughout the solution.
+
+Storyboard
+==
+We developed a storyboard for our persona, Brand D Wells . It illustrates the user experience with the app. This approach effectively showcases how the product fits into a broader narrative, providing insight into its real-world application. It's a valuable and cost-effective method for capturing, communicating, and exploring the app's context and usability.
+
+
