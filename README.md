@@ -1,5 +1,6 @@
-# SOEN357-PROJECT
+SOEN357-PROJECT
 ==
+
 Yoel Serfaty 40087369
 
 Haoyu Wang 40216511
