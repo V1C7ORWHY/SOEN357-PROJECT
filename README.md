@@ -47,12 +47,14 @@ Now We have an idea of how the website will run. Mapping the basic flow of the w
 Storyboard
 ==
 We developed a storyboard. It illustrates the user experience with the website. This approach effectively showcases how the product fits into a broader narrative, providing insight into its real-world application. It's a valuable and cost-effective method for capturing, communicating, and exploring the app's context and usability.
+
 ![userjourney](https://github.com/user-attachments/assets/60cd1964-acea-408e-9e9b-4d3d22f95dd1)
 
 
 Sketches
 ==
 After deciding on the features and general concepts for the application, I created sketches to outline the layout of the pages, sections, and tabs. Although these sketches were not the final version, they were instrumental in shaping the final design.  
+
 Main Page  
 ![image](https://github.com/user-attachments/assets/4c6e1533-938e-4805-8a33-50c8824a2f6b)  
   
