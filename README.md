@@ -49,3 +49,32 @@ Storyboard
 We developed a storyboard. It illustrates the user experience with the website. This approach effectively showcases how the product fits into a broader narrative, providing insight into its real-world application. It's a valuable and cost-effective method for capturing, communicating, and exploring the app's context and usability.
 
 
+Sketches
+==
+After deciding on the features and general concepts for the application, I created sketches to outline the layout of the pages, sections, and tabs. Although these sketches were not the final version, they were instrumental in shaping the final design.
+
+
+
+
+
+
+Wireframes
+==
+Based on the sketches, core functionality was presented as a simple grayscale prototype. This allowed the team to focus on the functionality of the application rather than its aesthetics. Early prototypes of Travel.com ensured that users could navigate the system seamlessly and intuitively. 
+
+
+
+Visual Design
+==
+Color 
+-
+
+
+
+
+
+
+
+Typography
+==
+
