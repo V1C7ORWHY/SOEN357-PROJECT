@@ -72,6 +72,20 @@ Special Deal Page
 Wireframes
 ==
 Based on the sketches, core functionality was presented as a simple grayscale prototype. This allowed the team to focus on the functionality of the application rather than its aesthetics. Early prototypes of Travel.com ensured that users could navigate the system seamlessly and intuitively. 
+Main Page  
+![image](https://github.com/user-attachments/assets/95b96e1c-d650-40c8-87c3-4fc0ef70a126)  
+
+Settings Page  
+![image](https://github.com/user-attachments/assets/3ceb0fa7-c328-42df-b64e-0b18d94626c8)  
+
+Login/Signup Page  
+![image](https://github.com/user-attachments/assets/b86a65ae-daf3-4a74-aec4-bc69ca91027b)  
+
+Cart/Check-out Page  
+![image](https://github.com/user-attachments/assets/592c63db-a1db-4e02-a791-83dea06f1bdd)  
+
+Special Deal Page  
+![image](https://github.com/user-attachments/assets/b976e3ee-be44-44c9-b4a8-57457ebce0f2)  
 
 
 
