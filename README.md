@@ -96,6 +96,7 @@ Visual Design
 ==
 Color 
 -
+Use contrasting colors, such as white and black, to enhance visual effects, and bright colors, such as mint, blue, orange, and pink, to draw users’ attention to the button.
 
 ![image](https://github.com/user-attachments/assets/0a0ffc20-e22c-420a-94e4-61bdc7745431)
 
@@ -108,4 +109,9 @@ Color
 
 Typography
 -
+The font is inter, this font is very neat and clean, users can see it clearly, and bold is used on the current page to tell people who are looking at this prototype.
+
+<img width="184" alt="Screenshot 2024-11-29 at 19 18 58" src="https://github.com/user-attachments/assets/355ce397-ea44-4bd8-a271-e3e91bc24da0">
+
+
 
