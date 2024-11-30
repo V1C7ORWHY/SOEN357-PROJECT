@@ -52,6 +52,9 @@ User Flow Chart
 ==
 Now We have an idea of how the website will run. Mapping the basic flow of the website let me to figure each step on the path the users will take throughout the solution.
 
+![flowchart-357mini - Copy](https://github.com/user-attachments/assets/29bf81ff-78e9-485f-acf8-8e14a6874582)
+
+
 Storyboard
 ==
 We developed a storyboard. It illustrates the user experience with the website. This approach effectively showcases how the product fits into a broader narrative, providing insight into its real-world application. It's a valuable and cost-effective method for capturing, communicating, and exploring the app's context and usability.
