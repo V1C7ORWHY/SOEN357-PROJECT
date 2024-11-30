@@ -14,6 +14,16 @@ NiceShopping Online Grocery
 
 ![1](https://github.com/user-attachments/assets/4d5de365-b22c-4aef-bc15-fa269567cd9b)
 
+Research and analysis
+==
+Study subject 1：walmart.com
+
+![image](https://github.com/user-attachments/assets/2ba05a2a-40bf-4300-95af-0cb65b52f93d)
+
+
+Study subject 2: metro.ca
+
+
 
 How to run the code?
 ==
