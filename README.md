@@ -12,19 +12,6 @@ Yi Yu 40164162
 NiceShopping Online Grocery 
 ==
 
-![1](https://github.com/user-attachments/assets/4d5de365-b22c-4aef-bc15-fa269567cd9b)
-
-Research and analysis
-==
-Study subject 1：walmart.com
-
-![image](https://github.com/user-attachments/assets/2ba05a2a-40bf-4300-95af-0cb65b52f93d)
-
-
-Study subject 2: metro.ca
-
-
-
 How to run the code?
 ==
 Step 1: install node.js https://nodejs.org/en
@@ -37,6 +24,21 @@ Step 3: In the terminal go to the directory where app.js is.
 Step 4: Run node.js, the terminal should look something like this: 
         ...\Java-workspace\GroceryShop\src\main\javascript>node app.js
 
+![1](https://github.com/user-attachments/assets/4d5de365-b22c-4aef-bc15-fa269567cd9b)
+
+Research and analysis
+==
+Study subject 1：walmart.com
+
+![image](https://github.com/user-attachments/assets/2ba05a2a-40bf-4300-95af-0cb65b52f93d)
+
+Improvement: Too much advertisement and recommendation, user can't catch the point.
+
+Study subject 2: metro.ca
+
+![image](https://github.com/user-attachments/assets/520613b7-2989-48e8-9d54-4ff1e0896e05)
+
+Improvement: The color is too monotonous.
 
 User personas
 ==
