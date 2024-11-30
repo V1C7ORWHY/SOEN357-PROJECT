@@ -15,7 +15,7 @@ How to run the code?
 ==
 Step 1: install node.js https://nodejs.org/en
 
-Step 2: install eclipse ide java 
+Step 2: download the files on github (zip file or normal file, both are fine) 
 
 Step 3: In the terminal go to the directory where app.js is.
         ...\Java-workspace\GroceryShop\src\main\javascript (E.g: cd \Java-workspace\GroceryShop\src\main\javascript)
