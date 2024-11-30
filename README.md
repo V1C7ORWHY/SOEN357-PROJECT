@@ -12,7 +12,8 @@ Yi Yu 40164162
 NiceShopping Online Grocery 
 ==
 
-![logo](https://github.com/user-attachments/assets/705e1e67-f9bb-4396-aebb-4746731b32c1)
+![1](https://github.com/user-attachments/assets/4d5de365-b22c-4aef-bc15-fa269567cd9b)
+
 
 Website
 ==
