@@ -15,9 +15,6 @@ NiceShopping Online Grocery
 ![1](https://github.com/user-attachments/assets/4d5de365-b22c-4aef-bc15-fa269567cd9b)
 
 
-Website
-==
-
 How to run the code?
 ==
 Step 1: install node.js https://nodejs.org/en
