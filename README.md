@@ -9,8 +9,7 @@ Rongmin Gan 40068816
 
 Yi Yu 40164162
 
-NiceShopping Online Grocery 
-==
+
 
 How to run the code?
 ==
@@ -24,6 +23,9 @@ Step 3: In the terminal go to the directory where app.js is.
 Step 4: Run node.js, the terminal should look something like this: 
         ...\Java-workspace\GroceryShop\src\main\javascript>node app.js
 
+        
+NiceShopping Online Grocery 
+==
 ![1](https://github.com/user-attachments/assets/4d5de365-b22c-4aef-bc15-fa269567cd9b)
 
 Research and analysis
