@@ -96,14 +96,9 @@ Visual Design
 ==
 Color 
 -
-Use contrasting colors, such as white and black, to enhance visual effects, and bright colors, such as mint, blue, orange, and pink, to draw users’ attention to the button.
+Use bright and contrasting colors, such as white and black, to enhance visual effects, and bright colors, such as mint, blue, orange, and pink, to draw users’ attention to the button.
 
 <img width="219" alt="Screenshot 2024-11-29 at 19 25 26" src="https://github.com/user-attachments/assets/b6bd4542-50fb-4a71-bfd5-794ddc84b980">
-
-
-
-
-
 
 
 
