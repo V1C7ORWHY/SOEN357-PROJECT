@@ -1,0 +1,851 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('/images/background.png') no-repeat center center fixed; /* Semi-transparent PNG */
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Table Layout */
+.main-table {
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+/* Header Row */
+.header-row {
+  background-color: rgba(255, 214, 8, 0.832); /* Semi-transparent gold */
+  color: #333;
+  padding: 10px;
+  height: 10%; /* Adjust header height */
+  box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.215),
+    inset -5px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 15%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.logo h1 a {
+  color: white; /* Change text color to white */
+  text-decoration: none; /* Remove underline */
+}
+
+.logo h1 a:hover {
+  text-decoration: underline; /* Add underline on hover for clarity */
+}
+
+/* Logo Section Styling */
+.logo-link {
+  display: flex; /* Ensure text and logo are inline */
+  align-items: center; /* Vertically align text and logo */
+  text-decoration: none;
+}
+
+.logo-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333; /* Use a contrasting color */
+  margin-right: 10px; /* Add space between text and logo */
+}
+
+.logo-image {
+  width: 100px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.search-bar {
+  flex: 4; /* Make the search bar take more space */
+  padding-left: 100px; /* Add padding to move it further from the logo */
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.672); /* Semi-transparent white */
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+}
+
+.language select {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  border: none;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+}
+
+.header-row a {
+  color: #0074d9; /* Blue for links */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.header-row a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  padding: 15px;
+  text-align: left;
+  vertical-align: top;
+  height: 100%;
+  box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.3),
+    inset -5px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .buttons a,
+.sidebar .buttons button {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0074d9; /* Blue for links and buttons */
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.3);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.sidebar .buttons a:hover,
+.sidebar .buttons button:hover {
+  background-color: #0074d9; /* Blue background on hover */
+  color: white;
+  box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.2),
+    inset -2px -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Deals Section */
+.deals-section {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+  height: calc(100% - 10%);
+  overflow-y: auto;
+  box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.3),
+    inset -5px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.deals-column td {
+  background-color: rgba(244, 244, 249, 0.8); /* Semi-transparent light gray */
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.deals-column td:hover {
+  background-color: rgba(255, 215, 0, 0.9); /* Semi-transparent gold */
+  box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.2),
+    inset -2px -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Settings Form */
+.settings-form {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.3),
+    inset -5px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-logo {
+  width: 10px; /* Adjust width as necessary */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0; /* Align left */
+  padding-left: 10px; /* Add slight padding for alignment */
+}
+
+.settings-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+input[type='radio'] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+input[type='radio']:checked + label {
+  color: #0074d9; /* Blue for selected options */
+}
+
+input[type='radio']:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+input[type='radio']:checked {
+  background-color: rgba(255, 170, 66, 0.9); /* Semi-transparent gold */
+}
+
+/* Footer Styles */
+footer {
+  margin-top: auto;
+  padding: 10px;
+  background-color: rgba(214, 148, 68, 0.9); /* Semi-transparent gold */
+  text-align: center;
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header-table {
+    display: block;
+    text-align: center;
+  }
+
+  .page-title h1 {
+    font-size: 1.2em;
+  }
+
+  .settings-form {
+    margin: 10px;
+    padding: 15px;
+  }
+}
+
+.deals-column td img {
+  display: block;
+  margin: 0 auto; /* Center the images */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+/* Styles for Login & Signup Pages */
+
+/* Login & Signup Section */
+.login-signup-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.login-signup-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-signup-container label {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.login-signup-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.3);
+  font-size: 1em;
+}
+
+.login-signup-container input:focus {
+  outline: none;
+  border-color: #0074d9;
+  box-shadow: 0 0 5px rgba(0, 116, 217, 0.5);
+}
+
+.login-signup-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0074d9; /* Blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-signup-container button:hover {
+  background-color: #005bb5;
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 10px rgba(0, 116, 217, 0.3);
+}
+
+.login-signup-container button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .login-signup-container {
+    margin: 20px;
+    padding: 15px;
+  }
+}
+/* Cart Container */
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Left Section: Payment */
+.payment-section {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.payment-section h3 {
+  margin-bottom: 15px;
+}
+
+.payment-section img {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+.payment-section form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.payment-section form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.payment-section button {
+  width: 100%;
+  padding: 12px;
+  background-color: #009dff; /* Blue */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.payment-section button:hover {
+  background-color: #005bb5;
+}
+
+/* Right Section: Cart Details */
+.cart-details {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cart-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.cart-details table th,
+.cart-details table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.cart-details table th {
+  background-color: #f4f4f4;
+}
+
+.cart-details form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.cart-details form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cart-details button {
+  width: 100%;
+  padding: 12px;
+  background-color: #009dff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cart-details button:hover {
+  background-color: #005bb5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cart-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .payment-section,
+  .cart-details {
+    flex: 1;
+  }
+}
+
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f7ff; /* Light blue background */
+  color: #333;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-bottom: 1px solid #ddd; /* Light gray border */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #009dff; /* Blue logo text */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  margin: 0 15px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #009dff;
+}
+
+/* Main Container */
+.main-container {
+  display: flex;
+  height: calc(100vh - 60px); /* Subtract header height */
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-right: 1px solid #ddd;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  color: #555;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar button:hover {
+  background-color: rgba(0, 157, 255, 0.8); /* Semi-transparent blue */
+  color: #fff;
+}
+
+/* Content Area */
+.special-deals-content {
+  width: 80%;
+  padding: 20px;
+  background-color: rgba(234, 243, 255, 0.9); /* Semi-transparent light blue */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.special-deals-content h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.special-deals-content hr {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); /* Light gray horizontal line */
+  margin: 15px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .special-deals-content {
+    width: 100%;
+  }
+}
+
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f7ff; /* Light blue background */
+  color: #333;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #009dff;
+}
+
+.logo img {
+  width: 100px; /* Larger size for the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.page-title {
+  font-size: 1.8em;
+  color: #444;
+}
+
+/* Main Container for Login/Signup */
+.login-signup-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+/* Section Styling */
+.login-section,
+.signup-section {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Login Header Styling */
+.login-header {
+  display: flex;
+  justify-content: center; /* Center the logo and text */
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Logo and Text Styling */
+.logo-link {
+  display: flex; /* Align text and logo inline */
+  align-items: center; /* Vertically align text and logo */
+  text-decoration: none; /* Remove underline */
+}
+.logo-text {
+  font-size: 1.5em; /* Adjust text size */
+  font-weight: bold; /* Make text bold */
+  color: #333; /* Use a dark color for contrast */
+  margin-right: 10px; /* Add space between text and logo */
+}
+
+.login-section h2,
+.signup-section h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Input Fields */
+input {
+  width: 90%; /* Reduce the width for shorter fields */
+  max-width: 400px; /* Ensure a maximum width for larger screens */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.3);
+}
+
+input:focus {
+  outline: none;
+  border-color: #009dff;
+  box-shadow: 0 0 5px rgba(0, 157, 255, 0.5);
+}
+
+/* Adjust Form Layout */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align inputs and buttons */
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #009dff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-signup-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Special Deals Header */
+.special-deals-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between logo and navigation links */
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-bottom: 1px solid #ddd; /* Light gray border */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styling */
+/* Special Deals Header */
+.special-deals-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between logo and navigation links */
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-bottom: 1px solid #ddd; /* Light gray border */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Larger Logo Styling */
+.special-deals-header .logo img {
+  width: 100px; /* Larger size for the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo-text {
+  font-size: 1.5em; /* Adjust text size */
+  font-weight: bold; /* Make text bold */
+  color: #333; /* Use a dark color for contrast */
+  margin-right: 10px; /* Add space between text and logo */
+}
+
+.special-deals-header .logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.special-deals-header .nav-links {
+  display: flex;
+  gap: 15px; /* Space between navigation links */
+}
+
+.special-deals-header .nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1em;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.special-deals-header .nav-links a:hover {
+  color: #009dff; /* Blue highlight on hover */
+}
+
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('/images/background.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Settings Container */
+.settings-container {
+  display: flex;
+  justify-content: center; /* Center the form horizontally */
+  align-items: center; /* Center the form vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.settings-form {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  padding: 30px 50px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Consistent space between rows */
+  max-width: 700px;
+  width: 100%;
+}
+
+/* Each Setting Row */
+.setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* Ensure rows take full width */
+  gap: 10px; /* Space between label and options */
+}
+
+/* Labels on the Left */
+.setting-label {
+  font-size: 1.2em;
+  font-weight: bold;
+  flex: 1; /* Take equal space */
+  text-align: left;
+  line-height: 1.5; /* Align text vertically */
+}
+
+/* Options on the Right */
+.setting-options {
+  display: flex;
+  flex: 2; /* Take more space for options */
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.setting-options label {
+  font-size: 1em;
+  display: flex;
+  align-items: center; /* Align radio buttons with text */
+}
+
+/* Settings Header */
+.settings-header .logo img {
+  width: 100px; /* Smaller size for the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo-text {
+  font-size: 1.5em; /* Adjust text size */
+  font-weight: bold; /* Make text bold */
+  color: #333; /* Use a dark color for contrast */
+  margin-right: 10px; /* Add space between text and logo */
+}
+
+/* Radio Buttons */
+input[type='radio'] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* General 404 Page Styles */
+section.error {
+   padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+  height: calc(100% - 10%);
+  overflow-y: auto;
+  box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.3),
+    inset -5px -5px 10px rgba(0, 0, 0, 0.1);
+}

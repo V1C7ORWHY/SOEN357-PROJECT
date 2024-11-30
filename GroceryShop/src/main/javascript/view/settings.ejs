@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header settings-header">
+        <div class="logo">
+            <a href="/" class="logo-link">
+                <span class="logo-text">NiceShopping</span>
+                <img src="/images/logoGrocery.png" alt="NiceShopping Logo">
+            </a>
+        </div>
+        <h2 class="page-title">Settings</h2>
+    </header>
+
+    <main class="settings-container">
+        <form class="settings-form">
+            <!-- Font Size Section -->
+            <div class="setting-row">
+                <label class="setting-label">Font Size:</label>
+                <div class="setting-options">
+                    <label><input type="radio" name="font-size" value="small"> Small</label>
+                    <label><input type="radio" name="font-size" value="medium"> Medium</label>
+                    <label><input type="radio" name="font-size" value="large"> Large</label>
+                </div>
+            </div>
+
+            <!-- Color Blind Mode Section -->
+            <div class="setting-row">
+                <label class="setting-label">Color Blind Mode:</label>
+                <div class="setting-options">
+                    <label><input type="radio" name="color-blind" value="on"> ON</label>
+                    <label><input type="radio" name="color-blind" value="off" checked> OFF</label>
+                </div>
+            </div>
+
+            <!-- Night Mode Section -->
+            <div class="setting-row">
+                <label class="setting-label">Night Mode:</label>
+                <div class="setting-options">
+                    <label><input type="radio" name="night-mode" value="on"> ON</label>
+                    <label><input type="radio" name="night-mode" value="off" checked> OFF</label>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

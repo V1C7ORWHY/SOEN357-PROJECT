@@ -1,0 +1,39 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+	<welcome-file-list>
+	   <welcome-file>index.html</welcome-file>
+	   <welcome-file>index.jsp</welcome-file>
+	   <welcome-file>default.html</welcome-file>
+	   <welcome-file>default.jsp</welcome-file>
+	 </welcome-file-list>
+	    
+    <servlet>
+        <servlet-name>BookStoreServlet</servlet-name>
+        <servlet-class>Demoservlet.BookStoreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookStoreServlet</servlet-name>
+        <url-pattern>/bookstore</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>Demoservlet.CartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckoutServlet</servlet-name>
+        <servlet-class>Demoservlet.CheckoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckoutServlet</servlet-name>
+        <url-pattern>/checkout</url-pattern>
+    </servlet-mapping>
+
+</web-app>

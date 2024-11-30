@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Signup</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="/" class="logo-link">
+                <span class="logo-text">NiceShopping</span>
+                <img src="/images/logoGrocery.png" alt="NiceShopping Logo">
+            </a>
+        </div>
+        <h2 class="page-title">Login / Signup</h2>
+    </header>
+
+    <main class="login-signup-container">
+        <!-- Login Form -->
+        <div class="login-section">
+            <form action="/login" method="POST">
+                <h2>Already have an account?</h2>
+                <label for="email-login">Email Address:</label>
+                <input type="email" id="email-login" name="email" placeholder="Enter your email" required>
+
+                <label for="password-login">Password:</label>
+                <input type="password" id="password-login" name="password" placeholder="Enter your password" required>
+
+                <button type="submit">Continue</button>
+            </form>
+        </div>
+
+        <!-- Signup Form -->
+        <div class="signup-section">
+            <form action="/signup" method="POST">
+                <h2>First time?</h2>
+                <label for="email-signup">Email Address:</label>
+                <input type="email" id="email-signup" name="email" placeholder="Enter your email" required>
+
+                <label for="code">Verification Code:</label>
+                <input type="text" id="code" name="code" placeholder="Enter your verification code">
+
+                <label for="password-signup">Password:</label>
+                <input type="password" id="password-signup" name="password" placeholder="Create a password" required>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirmPassword" placeholder="Re-enter your password" required>
+
+                <button type="submit">Continue</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
