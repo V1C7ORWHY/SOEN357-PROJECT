@@ -119,4 +119,8 @@ The font is inter, this font is very neat and clean, users can see it clearly, a
 <img width="184" alt="Screenshot 2024-11-29 at 19 18 58" src="https://github.com/user-attachments/assets/355ce397-ea44-4bd8-a271-e3e91bc24da0">
 
 
+Final design 
+-
+
+![录屏2024-11-29 下午9 06 19](https://github.com/user-attachments/assets/fc58b017-08b8-46fe-9fd9-fe8fa026a517)
 
