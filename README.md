@@ -23,6 +23,14 @@ Step 3: In the terminal go to the directory where app.js is.
 Step 4: Run node.js, the terminal should look something like this: 
         ...\Java-workspace\GroceryShop\src\main\javascript>node app.js
 
+
+Final design 
+-
+
+![录屏2024-11-29 下午9 06 19](https://github.com/user-attachments/assets/fc58b017-08b8-46fe-9fd9-fe8fa026a517)
+
+
+
         
 NiceShopping Online Grocery 
 ==
