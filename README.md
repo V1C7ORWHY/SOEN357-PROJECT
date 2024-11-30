@@ -97,6 +97,9 @@ Visual Design
 Color 
 -
 
+![image](https://github.com/user-attachments/assets/0a0ffc20-e22c-420a-94e4-61bdc7745431)
+
+
 
 
 
