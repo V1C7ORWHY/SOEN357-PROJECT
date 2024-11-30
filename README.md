@@ -34,13 +34,17 @@ Study subject 1：walmart.com
 
 ![image](https://github.com/user-attachments/assets/2ba05a2a-40bf-4300-95af-0cb65b52f93d)
 
-Improvement: Too much advertisement and recommendation, user can't catch the point.
+Good point: The image is too big, and users can know what products are on sale.
+
+Improvement:Too much advertisement and recommendation, users can't catch the point.
 
 Study subject 2: metro.ca
 
 ![image](https://github.com/user-attachments/assets/520613b7-2989-48e8-9d54-4ff1e0896e05)
 
-Improvement: The color is too monotonous.
+Good point: The color combination is good.
+
+Improvement:The color is too monotonous.Sometimes, the homepage can feel cluttered with multiple banners, promotions, and pop-ups, making it hard for users to focus.
 
 User personas
 ==
