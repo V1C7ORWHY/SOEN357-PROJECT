@@ -18,9 +18,12 @@ NiceShopping Online Grocery
 How to run the code?
 ==
 Step 1: install node.js https://nodejs.org/en
+
 Step 2: install eclipse ide java 
+
 Step 3: In the terminal go to the directory where app.js is.
         ...\Java-workspace\GroceryShop\src\main\javascript
+        
 Step 4: Run node.js, the terminal should look something like this: 
         ...\Java-workspace\GroceryShop\src\main\javascript>node app.js
 
